@@ -21,7 +21,6 @@ export class ShoppingListComponent implements OnInit {
 
   onAddIngredient(ingredient: Ingredient) {
     this.ingredients.push(ingredient);
-    console.log(JSON.stringify(ingredients));
   }
 
 }
